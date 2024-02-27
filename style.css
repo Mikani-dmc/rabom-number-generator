@@ -1,0 +1,30 @@
+/* Estilizando a classe "number" */
+body{
+    text-align: center;
+    margin-top: 25dvh;
+}
+
+.number {
+    font-family: Arial, sans-serif; /* Defina a fonte desejada */
+    font-size: 3em; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    /* Outras propriedades de estilo, se necessário */
+}
+
+/* Estilizando a classe "btn" */
+.btn {
+    font-family: Helvetica, Arial, sans-serif; /* Defina a fonte desejada */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #fff; /* Cor do texto */
+    background-color: #007bff; /* Cor de fundo do botão */
+    border: none; /* Remova a borda do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    cursor: pointer; /* Altere o cursor ao passar o mouse sobre o botão */
+    margin-bottom: 2em;
+    /* Outras propriedades de estilo, se necessário */
+}
+
+input {
+    margin-top: 1em;
+    border-radius: 10px;
+}
