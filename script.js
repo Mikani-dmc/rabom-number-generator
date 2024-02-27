@@ -2,7 +2,7 @@ const randomdisplay = document.getElementById("random-number");
 const randomizebtn = document.getElementById("randomize-btn");
 const value = document.getElementById("value");
 const send = document.getElementById("send");
-const displaynumber = document.getElementById("used-number"");
+const displaynumber = document.getElementById("used-number");
 
 //let howmany = prompt("How many number?")
 
@@ -14,12 +14,11 @@ randomizebtn.onclick = function () {
 }
 
 send.onclick = function () {
-    if (value <= 2) { 
+    if (parseInt(value.value) < 2) {
         howmany = 10;
-        displaynumber.innerText = howmany; 
-    }
-    else {
-        howmany = value.Number()
-        displaynumber.innerText = howmany; 
+        displaynumber.innerText = howmany;
+    } else {
+        howmany = parseInt(value.value);
+        displaynumber.innerText = "number selected: " + howmany;
     }
 }
